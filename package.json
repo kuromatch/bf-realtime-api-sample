@@ -1,0 +1,25 @@
+{
+  "name": "bf-realtime-api-sample",
+  "version": "1.0.0",
+  "description": "bitFlyer Realtime API Sample",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index",
+    "build": "tsc --declaration",
+    "watch": "tsc -w --declaration",
+    "clean": "rimraf lib/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "くろま",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.12.21",
+    "@types/request-promise": "^4.1.42",
+    "@types/socket.io-client": "^1.4.32",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "rimraf": "^2.6.3",
+    "socket.io-client": "^2.2.0",
+    "typescript": "^3.3.1"
+  }
+}
